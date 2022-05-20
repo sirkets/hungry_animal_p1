@@ -11,5 +11,12 @@ public class Elephant extends Actor
         if(Greenfoot.isKeyDown("a")){
             move(-3);
         }
+        
+        // check if we eat an apple
+        if(isTouching(Apple.class)){
+            removeTouching(Apple.class);
+            MyWorld world = (MyWorld) getWorld();
+            world.spawnApple();
+        }
     }
 }
