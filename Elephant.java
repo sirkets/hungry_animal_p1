@@ -2,6 +2,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class Elephant extends Actor
 {
+    public Elephant()
+    {
+        GreenfootImage image = new GreenfootImage("images/elephant_idle/idle0.png");
+        setImage(image);
+    }
+    
     public void act()
     {
         // Add your action code here.
