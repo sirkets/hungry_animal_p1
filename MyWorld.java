@@ -17,6 +17,9 @@ public class MyWorld extends World
         Elephant e = new Elephant();
         addObject(e, 300, 350);
         
+        Rock rock = new Rock();
+        addObject(rock, 0, 0);
+        
         scoreLabel = new Label(score, 80);
         addObject(scoreLabel, 50, 50);
         
