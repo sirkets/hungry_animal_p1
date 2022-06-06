@@ -19,7 +19,7 @@ public class TitleWorld extends World
         super(600, 400, 1); 
         Label titleLabel = new Label("Hungry Elephant", 80);
         addObject(titleLabel, 300, 200);
-        Label instructionLabel = new Label("Press <space> to begin", 50);
+        Label instructionLabel = new Label("Press <space> to begin!", 50);
         addObject(instructionLabel, 300, 260);
     }
     
